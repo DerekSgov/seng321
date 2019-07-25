@@ -13,11 +13,11 @@ import PostFeed from '../components/common/Posts/PostFeed'
 * in /utils/siteConfig.js under `postsPerPage`.
 *
 */
-const Index = ({ data, pageContext }) => {
-    const posts = data.allCardsJson.edges[0].node.cards
+const Projects = ({ data, pageContext }) => {
+    const posts = data.allCardsJson.edges[0].node.cards.filter(card => card.type === `Project`)
 
     return (
-        <Layout isHome={true}>
+        <Layout isHome={false}>
             <ContainerDiv>
                 <PostFeed posts={posts}/>
                 <Pagination pageContext={pageContext} />
@@ -26,7 +26,7 @@ const Index = ({ data, pageContext }) => {
     )
 }
 
-Index.propTypes = {
+Projects.propTypes = {
     data: PropTypes.shape({
         allCardsJson: PropTypes.object.isRequired,
     }).isRequired,
@@ -36,12 +36,12 @@ Index.propTypes = {
     pageContext: PropTypes.object,
 }
 
-export default Index
+export default Projects
 
 // This page query loads all posts sorted descending by published date
 // The `limit` and `skip` values are used for pagination
 export const pageQuery = graphql`
-  query GhostPostQuery {
+  query ProjectsPageQuery {
     allCardsJson {
         edges {
             node {
@@ -50,6 +50,7 @@ export const pageQuery = graphql`
                     feature_image
                     excerpt
                     slug
+                    type
                     id
                 }
             }

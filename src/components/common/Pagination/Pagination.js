@@ -1,12 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
+import { PaginationNav } from '.'
 
 const Pagination = ({ pageContext }) => {
     const { previousPagePath, nextPagePath, humanPageNumber, numberOfPages } = pageContext
 
     return (
-        <nav className="pagination" role="navigation">
+        <PaginationNav className="pagination" role="navigation">
             <div>
                 {previousPagePath && (
 
@@ -16,7 +17,9 @@ const Pagination = ({ pageContext }) => {
 
                 )}
             </div>
-            {numberOfPages > 1 && <div className="pagination-location">Page {humanPageNumber} of {numberOfPages}</div>}
+            {numberOfPages > 1 && 
+                <div className="pagination-location">Page {humanPageNumber} of {numberOfPages}
+                </div>}
             <div>
                 {nextPagePath && (
 
@@ -25,7 +28,7 @@ const Pagination = ({ pageContext }) => {
                     </Link>
                 )}
             </div>
-        </nav>
+        </PaginationNav>
     )
 }
 
