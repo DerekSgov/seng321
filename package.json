@@ -14,7 +14,6 @@
   "bugs": {
     "url": "https://github.com/DerekSgov/Portfolio/issues"
   },
-
   "main": "n/a",
   "scripts": {
     "serve": "gatsby build && NODE_ENV=production gatsby serve",
