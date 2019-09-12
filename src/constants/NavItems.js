@@ -4,19 +4,15 @@ export const NAVIGATION_ROUTES = [
         text: `Home`,
     },
     {
-        to: `/About-Me`,
-        text: `About Me`,
+        to: `/About-Us`,
+        text: `About Us`,
     },
     {
-        to: `/About-This-Site`,
-        text: `About This Site`,
+        to: `/Problem-Statement`,
+        text: `Problem Statement`,
     },
     {
-        to: `/Projects`,
-        text: `Projects`,
-    },
-    {
-        to: `/Work-Experience`,
-        text: `Work Experience`,
+        to: `/Resources`,
+        text: `Resources`,
     },
 ]
