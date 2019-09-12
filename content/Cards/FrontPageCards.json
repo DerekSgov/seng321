@@ -1,0 +1,23 @@
+{
+    "cards": [{
+        "title": "About the Team",
+        "excerpt": "blah",
+        "feature_image": "https://images.unsplash.com/photo-1545670723-196ed0954986?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80",
+        "slug": "/About-us",
+        "id":"aboutUs"
+    },
+    {
+        "title": "The Problem We are Trying to Solve",
+        "excerpt": "barlp",
+        "feature_image": "https://images.unsplash.com/photo-1519181258491-889c2b001485?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+        "slug": "/Problem-Statement",
+        "id":"problemStatement"
+    },
+    {
+        "title": "Resources",
+        "excerpt": "burlp",
+        "feature_image": "https://images.unsplash.com/photo-1519181258491-889c2b001485?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+        "slug": "/Resources",
+        "id":"resources"
+    }]
+}
