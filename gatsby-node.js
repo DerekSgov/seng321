@@ -43,23 +43,9 @@ exports.createPages = async ({ graphql, actions }) => {
     }
 
     // Extract query results
-    const myPosts = result.data.allPostPagesJson.edges
     const allCards = result.data.allCardsJson.edges[0].node.cards
     // Load templates
     const indexTemplate = path.resolve(`./src/templates/index.js`)
-    const postTemplate = path.resolve(`./src/templates/post.js`)
-
-    myPosts.forEach(({ node }) => {
-        createPage({
-            path: node.slug,
-            component: postTemplate,
-            context: {
-                // Data passed to context is available
-                // in page queries as GraphQL variables.
-                slug: node.slug,
-            },
-        })
-    })
 
     // Create pagination
     paginate({
