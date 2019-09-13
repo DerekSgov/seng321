@@ -19,5 +19,5 @@ export const BannerDescription = styled.p`
     padding: 0;
     font-size: 2.4rem;
     line-height: 1.3em;
-    opacity: 0.7;
+    opacity: 0.85;
 `

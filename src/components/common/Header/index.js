@@ -4,7 +4,8 @@ export const SiteHeader = styled.header`
     padding-top: 20px;
     padding-bottom: 20px;
     color: #fff;
-    background: #15171A;
+    background-color: black;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(/images/Earth-Satalite-View.png);
 `
 
 export const SiteMast = styled.div`

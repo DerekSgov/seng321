@@ -4,7 +4,7 @@ export const NAVIGATION_ROUTES = [
         text: `Home`,
     },
     {
-        to: `/About-Us`,
+        to: `/About-us`,
         text: `About Us`,
     },
     {

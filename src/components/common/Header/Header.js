@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { SiteHeader, SiteMast, SiteMastIcon, GitHubLogo } from '.'
 import Navigation from '../Navigation/Navigation'
 import { ContainerDiv } from '..'
-import { NavItem } from '../Navigation'
 import SiteBanner from '../SiteBanner/SiteBanner'
 
 const Header = ({ data, title, description, isHome }) => (
@@ -11,9 +10,9 @@ const Header = ({ data, title, description, isHome }) => (
         <ContainerDiv>
             <SiteMast>
                 <SiteMastIcon>
-                    <NavItem href={`https://github.com/DerekSgov/Portfolio`}>
+                    <a href={`https://github.com/DerekSgov/seng321`}>
                         <GitHubLogo src="\images\GitHub-Mark-Light-64px.png" alt="GitHub"/>
-                    </NavItem>
+                    </a>
                 </SiteMastIcon>
             </SiteMast>
             { isHome && <SiteBanner title={title} description={description}/>}
