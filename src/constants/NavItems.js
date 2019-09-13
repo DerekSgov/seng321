@@ -12,7 +12,7 @@ export const NAVIGATION_ROUTES = [
         text: `Problem Statement`,
     },
     {
-        to: `/Resources`,
-        text: `Resources`,
+        to: `/RFP`,
+        text: `Request For Proposal`,
     },
 ]
