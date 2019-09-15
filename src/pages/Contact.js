@@ -8,10 +8,10 @@ const Contact = () => (
             <ArticleContent>
                 <section className="post-full-content">
                     <Title>Contact</Title>
+                    <h2>Have any questions?</h2>
+                    <p>Feel free to reach us through our contact email on connex!</p>
                     <h2>Found an issue with the site?</h2>
                     <p>Make a pull request or create an issue on Github <Link href={`https://github.com/DerekSgov/sen321/issues`}>here</Link></p>
-                    <h2>Email?</h2>
-                    <p>Feel free to contact me through my institutional email, (enter email here)</p>
                 </section>
             </ArticleContent>
         </ContainerDiv>
