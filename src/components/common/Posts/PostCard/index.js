@@ -5,7 +5,6 @@ export const PostCardLink = styled(Link)`
     color: inherit;
     text-decoration: none;
     padding-bottom: 10px;
-    width: 150px;
     :hover {
         text-decoration: none;
         position: relative; 
