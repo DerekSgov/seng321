@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { SiteHeader, SiteMast, SiteMastIcon, GitHubLogo } from '.'
+import { SiteHeader, SiteMast, SiteMastIcon, ACLogo,HeaderLogo,LogoHolder } from '.'
 import Navigation from '../Navigation/Navigation'
 import { ContainerDiv } from '..'
 import SiteBanner from '../SiteBanner/SiteBanner'
@@ -11,11 +11,13 @@ const Header = ({ data, title, description, isHome }) => (
             <SiteMast>
                 <SiteMastIcon>
                     <a href={`https://github.com/DerekSgov/seng321`}>
-                        <GitHubLogo src="\images\GitHub-Mark-Light-64px.png" alt="GitHub"/>
+                        {!isHome && <ACLogo src="\images\AidConnect-logo\vector\isolated-monochrome-white.svg" alt="AidConnect"/>}
                     </a>
                 </SiteMastIcon>
             </SiteMast>
-            { isHome && <SiteBanner title={title} description={description}/>}
+            <LogoHolder>
+            { isHome && <HeaderLogo src = "\images\AidConnect-logo\vector\default-monochrome.svg"/>}
+            </LogoHolder>
             <Navigation data={data}/>
         </ContainerDiv>
     </SiteHeader>

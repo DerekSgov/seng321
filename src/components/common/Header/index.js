@@ -5,7 +5,9 @@ export const SiteHeader = styled.header`
     padding-bottom: 20px;
     color: #fff;
     background-color: black;
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(/images/Earth-Satalite-View.png);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/header-image.jpg);
+    background-size: 100%;
+    background-position: center;
 `
 
 export const SiteMast = styled.div`
@@ -23,7 +25,17 @@ export const SiteMastIcon = styled.div`
     }
 `
 
-export const GitHubLogo = styled.img`
-    height: 25px;
+export const ACLogo = styled.img`
+    height: 50px;
     margin: -5px 0 0;
+`
+export const LogoHolder = styled.div`
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: auto;
+`
+export const HeaderLogo = styled.img`
+    height: 200px;
+    align-items: center;
+    margin: 0 auto;
 `
