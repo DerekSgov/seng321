@@ -23,7 +23,7 @@ export const SiteMastIcon = styled.div`
     }
 `
 
-export const GitHubLogo = styled.img`
-    height: 25px;
+export const ACLogo = styled.img`
+    height: 50px;
     margin: -5px 0 0;
 `

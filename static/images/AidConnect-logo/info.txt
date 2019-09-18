@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Istok-Bold
+font link: https://fonts.google.com/specimen/Istok+Web
+font author: Andrey V. Panov
+font author site: 
+
+
+icon designer: Moveable Feast Collective : GDA 01
+icon designer link: /su002
+        
+{"bg":"#EDE9E4","icon":"#14A9A9","font":"#14A9A9","slogan":"#28bdbd"}
+      
