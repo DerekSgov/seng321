@@ -10,7 +10,7 @@ export const FeaturedImage = styled.img`
 export const PostContent = styled.div`
     max-width: 720px;
     margin: 0 auto;
-    background: #fff;
+    background: #e3e3e3;
 `
 
 export const PostBody = styled.div`
