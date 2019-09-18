@@ -10,7 +10,7 @@ const ProblemStatement = () => (
                 <PostContent>
                     <Title>Problem Statement</Title>
                     <PostBody>
-                        <p>At AidConnect, we agknowledge that post-disaster communication and organization can be chaotic and hamper the efforts to help those in need. NGOs and Governmental agencies often miscommunicate and experience issues with providing essential services, such as food and clean water centers, medical assistance and more, with provisions being under or over utilized depending on the location. Due to the natural chaos of the situation and lack of means to access current information on relief efforts, the people these organizations aim to help often struggle to find the aid they require.</p>
+                        <p>AidConnect has a system that connects disaster victims with aid organizations’ information. AidConnect’s system can be unreliable in post-disaster situations when critical infrastructure is damaged. This cripples the ability of aid organizations to communicate with each other and provide food, clean water, social support, and medical assistance to disaster victims. It also cripples the ability of disaster victims to connect with the aid organizations. AidConnect wants to make our data more accessible to victims and deliver it reliably to their mobile devices.</p>
                     </PostBody>
                 </PostContent>
             </ArticleContent>
