@@ -12,7 +12,7 @@ export const TEAM_MEMBERS = [
     {
         name: `Joy, Samuel`,
         position: `Chief Operations Officer`,
-        image_url: `/images/Earth-Satalite-View.png`,
+        image_url: `/images/Headshots/Samuel.jpg`,
     },
     {
         name: `Schell, Alex`,
@@ -22,7 +22,7 @@ export const TEAM_MEMBERS = [
     {
         name: `Siemens, Derek`,
         position: `Chief Legal Officer`,
-        image_url: `/images/Earth-Satalite-View.png`,
+        image_url: `/images/Headshots/Derek.jpg`,
     },
     {
         name: `Voorthuyzen, Sho Ya`,
