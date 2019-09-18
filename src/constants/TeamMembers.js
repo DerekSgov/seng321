@@ -2,12 +2,12 @@ export const TEAM_MEMBERS = [
     {
         name: `Chua, Jerusha`,
         position: `Human Resources Director`,
-        image_url: `/images/Earth-Satalite-View.png`,
+        image_url: `/images/Headshots/Jerusha.jpg`,
     },
     {
         name: `Eng, Andrew`,
         position: `Chief  Marketing Officer`,
-        image_url: `/images/Earth-Satalite-View.png`,
+        image_url: `/images/Headshots/Andrew.jpg`,
     },
     {
         name: `Joy, Samuel`,
@@ -17,7 +17,7 @@ export const TEAM_MEMBERS = [
     {
         name: `Schell, Alex`,
         position: `Vice President of Sales`,
-        image_url: `/images/Earth-Satalite-View.png`,
+        image_url: `/images/Headshots/Alex.jpg`,
     },
     {
         name: `Siemens, Derek`,
@@ -27,11 +27,11 @@ export const TEAM_MEMBERS = [
     {
         name: `Voorthuyzen, Sho Ya`,
         position: `Chief Executive Officer`,
-        image_url: `/images/Earth-Satalite-View.png`,
+        image_url: `/images/Headshots/Sho.jpg`,
     },
     {
         name: `Yang, Charles`,
         position: `Chief Financial Officer`,
-        image_url: `/images/Earth-Satalite-View.png`,
+        image_url: `/images/Headshots/Charles.jpg`,
     },
 ]
