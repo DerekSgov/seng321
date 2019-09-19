@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { FooterNavDiv, SiteFooter } from '.'
+import { FooterNavDiv, SiteFooter, Disclaimer } from '.'
 import { NavItem } from '../Navigation'
 import { ContainerDiv } from '..'
 
@@ -11,6 +11,9 @@ const Footer = ({ data }) => (
                 {data.map(navItem => (
                     <NavItem to={navItem.to} key={navItem.text}>{navItem.text}</NavItem>
                 ))}
+                <Disclaimer>
+                    <p>Disclaimer: This not a real company, this website exists only for a school project</p>
+                </Disclaimer>
             </FooterNavDiv>
         </ContainerDiv>
     </SiteFooter>

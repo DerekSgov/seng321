@@ -14,3 +14,7 @@ export const SiteFooter = styled.footer`
     background: #15171A;
     justify-content: space-between;
 `
+
+export const Disclaimer = styled.div`
+padding-left: 10px;
+`
