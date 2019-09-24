@@ -7,11 +7,11 @@
         "id":"aboutUs"
     },
     {
-        "title": "Problem Statement",
-        "excerpt": "Read about the problems we are facing and want to solve!",
+        "title": "Mission & Vision",
+        "excerpt": "Read about our goals and what we hope to accomplish!",
         "feature_image": "https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-        "slug": "/Problem-Statement",
-        "id":"problemStatement"
+        "slug": "/mission-vision",
+        "id":"missionvision"
     },
     {
         "title": "Request For Proposal",

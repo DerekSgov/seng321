@@ -8,8 +8,8 @@ export const NAVIGATION_ROUTES = [
         text: `About Us`,
     },
     {
-        to: `/Problem-Statement`,
-        text: `Problem Statement`,
+        to: `/Mission-Vision`,
+        text: `Our Mission & Vision`,
     },
     {
         to: `/RFP`,
