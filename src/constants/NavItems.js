@@ -15,4 +15,8 @@ export const NAVIGATION_ROUTES = [
         to: `/RFP`,
         text: `Request For Proposal`,
     },
+    {
+        to: `/RD`,
+        text: `RD Feedback`,
+    },
 ]
