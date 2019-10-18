@@ -17,6 +17,6 @@ export const NAVIGATION_ROUTES = [
     },
     {
         to: `/RD`,
-        text: `RD Feedback`,
+        text: `RD & RSD Feedback`,
     },
 ]
