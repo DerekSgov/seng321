@@ -11,7 +11,7 @@ const RD = () => (
                     <Title>RD And RSD Feedback</Title>
                     <PostBody>
                         <p>A big thanks to Angle Engineering for taking on our RFP!</p>
-                        <p>We enjoyed reading it and look forward to working more with them in the future, click <a href="/images/RD1.1.pdf">here</a> to view our RD feedback and <a href="/images/RSD1.1.pdf">here</a> to view our RSD feedback.</p>
+                        <p>We enjoyed reading it and look forward to working more with them in the future, click <a href="/images/RD1.1.pdf">here</a> to view our RD feedback, <a href="/images/RSD1.1.pdf">here</a> to view our RSD 1.0 feedback and <a href="/images/RSD3.1.pdf">here</a> to view our RSD 3.0 feedback.</p>
                     </PostBody>
                 </PostContent>
             </ArticleContent>
